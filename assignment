@@ -4,8 +4,8 @@ import numpy as np
 # a) Add a 1D array `[1, 2, 3]` to each row of a 2D array
 arr1 = np.array([[10, 20, 30], [40, 50, 60]])
 broad_arr1 = np.array([1, 2, 3])
-result1 = arr1 + broad_arr1
-print(result1)
+res1 = arr1 + broad_arr1
+print(res1)
 
 # b) Multiply a 2D array column-wise
 arr2 = np.array([[1, 2], [3, 4]])
