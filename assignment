@@ -45,8 +45,8 @@ print(res7)
 
 # 4. Normalizing
 arr4 = np.array([10, 20, 30])
-result8 = (arr4 - arr4.min()) / (arr4.max() - arr4.min())
-print(result8)
+res8 = (arr4 - arr4.min()) / (arr4.max() - arr4.min())
+print(res8)
 
 # 5. Bonus Challenge
 # a) Create a 3x3 matrix where each element at position (i, j) is i * j
